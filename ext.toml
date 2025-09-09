@@ -1,0 +1,13 @@
+[package]
+title = "CAE Data Visualizer"
+version = "0.1.0"
+description = "Loads a CSV of scalar values and visualizes them as colored cubes."
+authors = ["A E"]
+category = "Utilities"
+
+[dependencies]
+"omni.kit.uiapp" = {}
+"omni.usd" = {}
+
+[[python.module]]
+name = "source"
